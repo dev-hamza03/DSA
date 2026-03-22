@@ -54,3 +54,17 @@ console.log("1" / 1);
 
 
 
+
+// q4.Accept and print the answer - in this see how prompts work used for taking input
+
+
+const prompt = require("prompt-sync")();
+
+let age = Number(prompt("Enter your age: "));
+console.log(typeof age);
+
+console.log(`Age ${age}`);
+
+
+
+
