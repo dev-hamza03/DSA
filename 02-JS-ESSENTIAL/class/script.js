@@ -34,3 +34,23 @@ let temp2 = 20;
 console.log(temp1 + temp2);
 
 
+
+
+// q3. sum and message
+
+a = 10;
+b = 20;
+
+// console.log("The sum of " + a + " and " + b + " is " + a + b )
+console.log("The sum of " + a + " and " + b + " is " + (a + b))
+
+
+
+// ---Type Coercion
+console.log("1" + 1);
+console.log("1" - 1);
+console.log("1" / 1);
+
+
+
+
