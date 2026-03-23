@@ -22,7 +22,6 @@ console.log(a ** b); // 100000
 let x = 10;
 let y = 20;
 
-console.log("\nRelational:");
 console.log(x > y);   // false
 console.log(x < y);   // true
 console.log(x >= 10); // true
@@ -43,7 +42,6 @@ console.log(x !== "10"); // true
 let age = 18;
 let hasID = true;
 
-console.log("\nLogical:");
 console.log(age >= 18 && hasID); // true
 console.log(age < 18 || hasID);  // true
 console.log(!hasID);             // false
@@ -57,7 +55,6 @@ console.log(!hasID);             // false
 // =====================
 let num = 5;
 
-console.log("\nUnary:");
 num++;
 console.log(num); // 6
 
@@ -71,3 +68,18 @@ console.log(-num); // -5
 
 let isLoggedIn = true;
 console.log(!isLoggedIn); // false
+
+
+
+
+
+// =====================
+// Practice
+// =====================
+let p = 5;
+let q = 2;
+
+
+console.log(p * q + p);   // 15
+console.log(p > q && q < 10);  // true
+console.log(!(p == 5));    // false
