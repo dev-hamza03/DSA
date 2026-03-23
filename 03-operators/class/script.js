@@ -47,3 +47,27 @@ console.log("\nLogical:");
 console.log(age >= 18 && hasID); // true
 console.log(age < 18 || hasID);  // true
 console.log(!hasID);             // false
+
+
+
+
+
+// =====================
+// Unary Operators
+// =====================
+let num = 5;
+
+console.log("\nUnary:");
+num++;
+console.log(num); // 6
+
+num--;
+console.log(num); // 5
+
+let str = "10";
+console.log(+str); // 10
+
+console.log(-num); // -5
+
+let isLoggedIn = true;
+console.log(!isLoggedIn); // false
