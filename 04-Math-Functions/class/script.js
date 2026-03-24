@@ -30,3 +30,25 @@ console.log(Math.max(10, 20, 30, 40, 50));
 
 // Math.randome -> used for genrate random values
 console.log(Math.random())
+
+
+
+// Questions
+
+// Q!. calculate compound interst
+//  CP = P(1 + r/100)^(t) - p
+// example : input -> p = 10000, r = 5, t = 3
+// output = 1576.25
+
+
+let prompt = require("prompt-sync")();
+let P = Number(prompt("Enter the principal amount: "));
+let r = Number(prompt("Enter the rate of interest: "));
+let t = Number(prompt("Enter the time: "));
+
+let CP = (P * Math.pow(1 + (r / 100), t) - P).toFixed(2)
+console.log(CP)
+
+
+
+
