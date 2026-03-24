@@ -41,13 +41,19 @@ console.log(Math.random())
 // output = 1576.25
 
 
-let prompt = require("prompt-sync")();
-let P = Number(prompt("Enter the principal amount: "));
-let r = Number(prompt("Enter the rate of interest: "));
-let t = Number(prompt("Enter the time: "));
+// let prompt = require("prompt-sync")();
+// let P = Number(prompt("Enter the principal amount: "));
+// let r = Number(prompt("Enter the rate of interest: "));
+// let t = Number(prompt("Enter the time: "));
 
-let CP = (P * Math.pow(1 + (r / 100), t) - P).toFixed(2)
-console.log(CP)
+// let CP = (P * Math.pow(1 + (r / 100), t) - P).toFixed(2)
+// console.log(CP)
+
+
+
+// Q2. Generate OTP
+
+console.log(Math.floor(Math.random() * 9000) + 1000);
 
 
 
